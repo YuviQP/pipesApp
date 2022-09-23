@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
 export class BasicosComponent implements OnInit {
   nombreLower:string='Pipes';
   nombreUpper:string='ANGULAR';
-  nombreCompleto:string='yUVIsa QuisPE'
+  nombreCompleto:string='yUVIsa QuisPE';
+  otraFecha:string='2015-03-21T00:00:00.000';
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  fecha:Date=new Date();
 }
